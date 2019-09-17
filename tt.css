@@ -64,6 +64,12 @@
     width: 84.5%;
     margin: auto;
   }
+
+  @media screen only and (orientation: portrait) {
+    .header .divTable {
+      width: 94.5%;
+    }
+  }
   
   .header .divRow{
     display:table-row;
